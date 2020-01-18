@@ -28,10 +28,29 @@
       align-items: center;
   }
 
-  #header ul li a {
+ #header .nav-link a{
       text-decoration: none;
       color: #000000;
       font-size: 16px;
       font-weight: 200;
       margin-right: 60px;
   }
+#md div {
+    margin-bottom: 10px;
+}
+#md h1 {
+    font-weight: bold;
+}
+#md input {
+    padding: 5px;
+    width: 300px
+}
+#md input[type=submit] {
+    border: 0px solid black;
+    border-radius: 2px;
+    background-color: #f1c40f;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
